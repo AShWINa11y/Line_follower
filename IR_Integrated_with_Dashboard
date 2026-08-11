@@ -33,7 +33,7 @@ int baseSpeed = 150;        // Normal forward speed controlled by slider
 
 // MOTOR BIAS: Handicap the stronger motor to fix open-loop drift
 float leftMotorBias = 1.0;  // Left motor runs at 100%
-float rightMotorBias = 0.85; // Right motor is too strong, so handicap it to 85%
+float rightMotorBias = 0.95; // Right motor is too strong, so handicap it to 85%
 
 // Proportional Control Constant (Tweak this to fix wiggle)
 // Higher = aggressive corrections. Lower = sluggish corrections.
